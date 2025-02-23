@@ -91,7 +91,6 @@ hr {
   background: linear-gradient(135deg, #8B0000, #FF2400);
   background: linear-gradient(135deg, #4b0010, #6b0f1a, #4a0d35);
   padding: 20px;
-  border-radius: 10px;
 }
 
 #menu.navbar-default {
@@ -113,7 +112,7 @@ hr {
   text-transform: uppercase;
   color: #555;
   color: white !important;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
@@ -823,12 +822,16 @@ label {
 
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: #333;
   padding: 30px 0;
 }
 
+#footer h1 h2 h3 h4{
+  color: #999 !important;
+}
+
 #footer p {
-  color: #888;
+  color: #999;
   font-size: 14px;
 }
 
@@ -839,9 +842,84 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+/* Articl*/
+#article {
+  background: #f6f6f6;
+  padding-top: 80px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+#article p {
+  color: #333;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#article i.fa {
+  font-size: 38px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+#article .image-container {
+  width: 100%;
+  /* Ensures the image fills the container width */
+  object-fit: cover;
+  /* Makes the image behave like a background */
+  object-position: center;
+  /* Centers the image */
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+#article .divide{
+  border-bottom: 0.5px solid black;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+#article a {
+  font-size: 16px;
+}
+#article h3{
+  margin-top: 2rem;
+}
+/* Google form */
+.google-form-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Centers vertically */
+  background: linear-gradient(135deg, #bf101a, #4a0d35); /* Dark luxury red gradient */
+  padding: 20px;
+}
+
+.google-form-container iframe {
+  width: 100%;
+  max-width: 700px; /* Adjust width */
+  height: 80vh; /* Makes it take 80% of viewport height */
+  border-radius: 10px; /* Smooth rounded corners */
+  border: none; /* Remove default border */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
 
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+
+
+}
+@media (max-width: 1000px){
+#menu.navbar-default .navbar-nav>li>a {
+    font-size: 14px;
   }
 }

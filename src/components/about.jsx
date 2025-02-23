@@ -23,7 +23,7 @@ export const About = (props) => {
                         <strong>Chủ đầu tư: </strong> Tập đoàn VinGroup
                       </li>
                       <li>
-                        <strong>Vị trí: </strong>Đan Phượng, Hà Nội</li>
+                        <strong>Vị trí: </strong>Xã 2 Tân Hội và Liên Trung huyện Đan Phượng</li>
                       <li>
                         <strong>Quy mô: </strong>133.4ha</li>
                       <li>

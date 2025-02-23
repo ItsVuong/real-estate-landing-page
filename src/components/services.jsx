@@ -33,7 +33,7 @@ export const Services = (props) => {
                 <h4>Nhà liền kề
                 </h4>
                 <p>
-                  Liền kề Wonder Park được thiết kế với chiều cao 4 tầng diện tích linh hoạt từ 72m2 – 96m2 – 110m2 theo phong cách tân cổ điển sang trọng chia làm 2 loại liền kề tiêu chuẩn và liền kề nhà vườn….
+                  Liền kề Wonder Park được thiết kế với chiều cao 4 tầng diện tích linh hoạt từ 88m2 – 96m2 – 110m2 theo phong cách tân cổ điển sang trọng chia làm 2 loại liền kề tiêu chuẩn và liền kề nhà vườn….
                 </p>
               </div>
               <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
@@ -61,7 +61,7 @@ export const Services = (props) => {
                 <h4>Căn hộ chung cư
                 </h4>
                 <p>
-                  Với thiết kế hợp lý từ 1 đến 3 phòng ngủ, căn hộ chung cư  Vinhomes Đan Phượng đáp ứng mọi nhu cầu từ sử dụng của khách hàng, đem đến không gian sống lý tưởng, tiện nghi cho chủ nhân căn hộ….
+                  Với thiết kế hợp lý từ 1 đến 3 phòngcăn hộ chung cư  Vinhomes Đan Phượng đáp ứng mọi nhu cầu từ sử dụng của khách hàng, đem đến không gian sống lý tưởng, tiện nghi cho chủ nhân căn hộ….
                 </p>
               </div>
               <button className="btn btn-primary gold-gradient">Xem chi tiết</button>

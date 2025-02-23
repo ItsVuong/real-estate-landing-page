@@ -4,16 +4,14 @@ import { Header } from "../components/header";
 import { Intro } from "../components/intro";
 import { About } from "../components/about";
 import { Services } from "../components/services";
-import { Gallery } from "../components/gallery";
-import { Testimonials } from "../components/testimonials";
-import { Team } from "../components/Team";
 import { Location } from "../components/location";
-import { Contact } from "../components/contact";
 import JsonData from "../data/data.json";
 import "../App.css";
 import { TongThe } from "../components/TongThe";
 import { TienIch } from "../components/TienIch";
 import { Footer } from "../components/footer";
+import GoogleForm from "../components/GoogleForm";
+import UuDiem from "../components/UuDiem";
 
 const HomePage = () => {
   const [landingPageData, setLandingPageData] = useState({});
@@ -23,15 +21,14 @@ const HomePage = () => {
 
   return (
     <div>
-      <Navigation />
-      <Header/>
+      <Header />
       <Intro />
       <About />
-      <Location/>
-      <TongThe/>
-      <Services/>
-      <TienIch/>
-      <Footer/>
+      <Location />
+      <TongThe />
+      <Services />
+      <TienIch />
+      <UuDiem/>
     </div>
   );
 };
