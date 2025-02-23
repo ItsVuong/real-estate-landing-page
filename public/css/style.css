@@ -337,6 +337,9 @@ header .intro-text {
   margin-top: 1rem;
 }
 
+#features h5{
+  font-size: 16px;
+}
 /* About Section */
 #about {
   background: url(../img/navbar_background.jpg) center center no-repeat;
@@ -914,6 +917,12 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  h2{
+    font-size: 24px;
+  }
+  h4 h5{
+    font-size: 16px;
   }
 }
 @media (max-width: 1000px){

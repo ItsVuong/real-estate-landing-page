@@ -4,7 +4,7 @@ export const Intro = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
+        <div className="section-title">
           <h2>VINHOMES WONDER CITY</h2>
           <h3>ÁNH SÁNG THỊNH VƯỢNG ĐÁNH THỨC KỶ NGUYÊN MỚI PHÍA TÂY HÀ NỘI </h3>
           <h5>
