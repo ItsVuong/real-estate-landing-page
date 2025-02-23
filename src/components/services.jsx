@@ -22,7 +22,7 @@ export const Services = (props) => {
                   Là sản phẩm đẳng cấp nhất tại dự án với tổng số 285 căn, Có diện tích từ 150m2 – 400m2, được thiết kế theo phong cách Tân cổ điển sang trọng, tinh tế cùng, phong cách kiến trúc độc lập với 4 mặt tiền được xây dựng giữa…
                 </p>
               </div>
-                <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
+              <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
             </div>
           </div>
           <div className="col-md-3 col-sm-6 team">
@@ -36,7 +36,7 @@ export const Services = (props) => {
                   Liền kề Wonder Park được thiết kế với chiều cao 4 tầng diện tích linh hoạt từ 72m2 – 96m2 – 110m2 theo phong cách tân cổ điển sang trọng chia làm 2 loại liền kề tiêu chuẩn và liền kề nhà vườn….
                 </p>
               </div>
-                <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
+              <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
             </div>
           </div>
           <div className="col-md-3 col-sm-6 team">
