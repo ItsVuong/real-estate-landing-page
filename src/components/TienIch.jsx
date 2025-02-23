@@ -68,7 +68,7 @@ export const TienIch = (props) => {
                 style={{ width: '100%' }}
               />
               <div className="caption">
-                <h4>Chung tâm thương mại
+                <h4>Trung tâm thương mại
                 </h4>
               </div>
             </div>
