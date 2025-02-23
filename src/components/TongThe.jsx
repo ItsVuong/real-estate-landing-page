@@ -12,7 +12,7 @@ export const TongThe = (props) => {
           </p>
           <img src="img/quy-hoach.jpg" className="image-container" />
           <p className="text-content">
-            Mặt bằng Vinhomes Wonder Park được quy hoạch trên tổng diện tích đất là 133ha và được chia thành 3 phân khu đó là: The Light, The Time và The Royal. Dự kiến sẽ có khoảng hơn 2350 căn biệt thự phân bố đều tại cả 3 phân khu. Mật độ xây dựng của dự án chỉ khoảng 25% tổng diện tích quy hoạch, diện tích còn lại sẽ bao gồm:
+            Mặt bằng Vinhomes Wonder Park được quy hoạch trên tổng diện tích đất là 133ha và được chia thành 3 phân khu đó là: The Light, The Time và The Royal. Dự kiến sẽ có khoảng hơn 2350 căn biệt thự phân bố đều tại cả 3 phân khu. Mật độ xây dựng của dự án chỉ khoảng 25% tổng diện tích quy hoạch, diện tích còn lại sẽ bao gồm: nhà ở, vườn hoa, cây xanh, đường nội khu, các khu chức năng, trường học...
           </p>
         </div>
         <div className="row">
