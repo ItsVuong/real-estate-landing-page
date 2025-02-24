@@ -26,7 +26,7 @@ const LienHe = () => {
                   0367083529
                 </a>
                 <a
-                  href="https://www.facebook.com/profile.php?id=61573782980754"
+                  href="http://zalo.me/660139855964186242?src=qr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary"

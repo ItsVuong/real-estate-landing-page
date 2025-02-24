@@ -38,7 +38,7 @@ const ChinhSach = () => {
               <li><strong>Lần 4:</strong> Đóng 20% GBCH</li>
               <li><strong>Lần 5:</strong> Đóng 25% GBCH (VAT) </li>
               <li><strong>Lần 6:</strong> Đóng 25% GBCH (VAT) + 100% KPBT+ VAT của 5% GBCH </li>
-              <li><strong>Lần 7:</strong> Lần 7: Nhận chứng nhận quyền sở hữu – Bù trừ 5% – TTĐC </li>
+              <li><strong>Lần 7:</strong> Nhận chứng nhận quyền sở hữu – Bù trừ 5% – TTĐC </li>
             </l>
           </p>
 
