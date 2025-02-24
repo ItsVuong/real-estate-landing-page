@@ -59,7 +59,7 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=61573782980754"
+              href="https://zalo.me/0367083529?src=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary"
