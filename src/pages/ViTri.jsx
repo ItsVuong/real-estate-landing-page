@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 const ViTri = () => {
+  useEffect(() => {
+    document.title = "Vị trí Vinhomes Wonder City";
+  }, []);
   return (
     <div id="article" className="">
       <div className="container">

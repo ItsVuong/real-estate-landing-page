@@ -34,7 +34,9 @@ export default function UuDiem() {
 
   return (
     <div className="container mt-4"
-    style={{marginBottom: '50px', maxWidth: '1000px'}}>
+      style={{ marginBottom: '50px', maxWidth: '1000px' }}
+      id='uu-diem'
+    >
       <div className="col-md-8 col-md-offset-2 section-title"
         style={{ textAlign: 'center', marginTop: '50px', marginBottom: '26px' }}>
         <h2>CÁC ƯU ĐIỂM</h2>
@@ -44,7 +46,8 @@ export default function UuDiem() {
           <div className="accordion-item" key={index}
           >
             <h2 className="accordion-header"
-              style={{ borderBottom: '1px solid black', padding: '1rem 0', 
+              style={{
+                borderBottom: '1px solid black', padding: '1rem 0',
                 fontSize: '28px',
               }}
             >
@@ -70,7 +73,7 @@ export default function UuDiem() {
                 {section.content.length > 0 ? (
                   section.content.map((item, idx) => (
                     <div key={idx}>
-                      <p style={{ fontSize: '20px', marginBottom: '18px'}}>{item.answer}</p>
+                      <p style={{ fontSize: '20px', marginBottom: '18px' }}>{item.answer}</p>
                     </div>
                   ))
                 ) : (

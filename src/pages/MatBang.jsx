@@ -8,6 +8,9 @@ const MatBang = () => {
     const modal = new window.bootstrap.Modal(document.getElementById("imageModal"));
     modal.show();
   };
+  useEffect(() => {
+    document.title = "Mặt Bằng Vinhomes Wonder City";
+  }, []);
   return (
     <div id="article" className="">
       <div className="container">
@@ -19,6 +22,7 @@ const MatBang = () => {
             Mặt bằng Vinhomes Wonder City được quy hoạch trên tổng diện tích đất là 133ha và được chia thành 3 phân khu đó là: The Light, The Time và The Royal. Dự kiến sẽ có khoảng hơn 2350 căn biệt thự phân bố đều tại cả 3 phân khu.
           </p>
           <img src="img/vitri/l4.jpg" className="image-container" 
+            alt='Mặt bằng Vinhomes Wonder Park'
             onClick={() => openImage("img/vitri/l4.jpg")}
           />
           <h3>Tổng thể mặt bằng Vinhomes Wonder City</h3>
@@ -34,14 +38,18 @@ const MatBang = () => {
               <li><strong>Diện tích trường học:</strong> 2ha</li>
             </l>
           </p>
-          <img src="img/vitri/l2.jpg" className="image-container" />
+          <img src="img/vitri/l2.jpg" className="image-container" 
+            alt='Tiến độ Vinhomes Wonder Park'
+          />
 
           <h3>Mặt bằng phân khu Ánh Dương (The Light)</h3>
           <div className="divide"></div>
           <p>
             Phân khu Ánh Dương (The Light) nằm gần với mặt đường Tây Thăng Long đang được triển khai xây dựng và còn tiếp giáp trục đường 422 (sẽ được mở rộng lên 24m trong thời gian tới). Đây sẽ là phân khu sôi động nhất dự án Vinhomes Wonder City bởi nơi đây tập trung hầu hết các căn Shophouse của dự án,cùng với đó là TTTM Vincom Megamall với đa dạng hàng hóa và loại hình dịch vụ giải trí.
           </p>
-          <img src="img/vitri/anh-duong.jpeg" className="image-container" />
+          <img src="img/vitri/anh-duong.jpeg" className="image-container" 
+            alt='Phân khu ánh dương (The Light) Wonder Park)'
+          />
           <p>
             Phân khu Ánh Dương (The Light) có tổng số 729 căn, gồm đầy đủ các loại sản phẩm thấp tầng như: biệt thự đơn lập, biệt thự song lập, nhà liền kề và shophouse. Cụ thể như sau:
             <l>
@@ -65,7 +73,9 @@ const MatBang = () => {
           <p>
             Phân khu Thời Đại (The Times) tập trung xây dựng 2 loại hình chính là: Nhà liên kề + Shophouse, cùng các loại tiện ích đa dạng. Và chỉ có 10 căn biệt thự song lập + 4 căn biệt thự đơn lập.
           </p>
-          <img src="img/vitri/thoi-dai.jpeg" className="image-container" />
+          <img src="img/vitri/thoi-dai.jpeg" className="image-container" 
+            alt='Phân khu Thời Đại (The Time) Wonder City'
+          />
 
           <h3>
             Phân khu Hoàng Gia (The Royal)
@@ -77,7 +87,8 @@ const MatBang = () => {
           <p>
             Nơi đây được CĐT quy hoạch thành một khu tương đối riêng biệt, yên tĩnh, nằm gần với đê Thượng Cát. Nhưng từ phân khu Hoàng Gia đi tới các cụm tiện ích trung tâm cũng không quá xa. Phân khu này sẽ phù hợp với các khách hàng tầm trung niên trở đi. Những người mong muốn có một không gian yên tĩnh để nghỉ ngơi, thư giãn.
           </p>
-          <img src="img/vitri/hoang-gia.jpeg" className="image-container" />
+          <img src="img/vitri/hoang-gia.jpeg" className="image-container"
+          alt='Phân khu Hoàng Gia (The Royal) Wonder City'/>
 
           <a href='/' style={{ margin: '10px' }}>Quay về trang chủ</a>
         </div>

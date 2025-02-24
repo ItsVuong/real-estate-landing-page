@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const Navigation = (props) => {
   return (
@@ -20,13 +20,7 @@ export const Navigation = (props) => {
           </button>
           <a href='/'>
             <img src="img/logo.png"
-              className="navbar-brand page-scroll" href="#page-top"
-              style={{
-                height: '50px', width: 'auto', maWidth: '150px', objecFit: 'contain',
-                padding: '0 3px',
-                margin: 0,
-                backgroundColor: 'white'
-              }}
+              className="logo page-scroll" href="#page-top"
             />
           </a>
         </div>
@@ -38,42 +32,61 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="/vi-tri" className="page-scroll"
-                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif'}}
+                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif' }}
               >
                 VỊ TRÍ
               </a>
             </li>
             <li>
               <a href="/mat-bang" className="page-scroll"
-                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif'}}
+                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif' }}
               >
                 MẶT BẰNG
               </a>
             </li>
             <li>
-              <a href="" className="page-scroll"
-                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif',}}
+              <a href="/tien-ich" className="page-scroll"
+                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif' }}
+              >
+                TIỆN ÍCH
+              </a>
+            </li>
+            <li>
+              <a href="/chinh-sach" className="page-scroll"
+                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif', }}
               >
                 CHÍNH SÁCH
               </a>
             </li>
-            <li>
-              <a href="" className="page-scroll"
-                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif'}}
+            {/* San pham start*/}
+            <li class="nav-item dropdown">
+              <a 
+                class="nav-link dropdown-toggle" 
+                href="#" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                style={{backgroundColor: 'none', background: 'none'}}
               >
                 SẢN PHẨM
               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Biệt thự</a>
+                <a class="dropdown-item" href="#">Liền kề</a>
+                <a class="dropdown-item" href="#">Shophouse</a>
+                <a class="dropdown-item" href="#">Chung cư</a>
+              </div>
             </li>
+            {/* End of San pham*/}
+
             <li>
               <a href="" className="page-scroll"
-                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif'}}
+                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif' }}
               >
                 TIN TỨC
               </a>
             </li>
             <li>
               <a href="" className="page-scroll"
-                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif', fontSize: '16px' }}
+                style={{ fontFamily: 'Roboto, Playfair Display, sans-serif' }}
               >
                 LIÊN HỆ
               </a>

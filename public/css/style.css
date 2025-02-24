@@ -93,6 +93,16 @@ hr {
   padding: 20px;
 }
 
+#menu .logo {
+  height: 50px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+  padding: 0 3px;
+  margin: 0;
+  background-color: white;
+}
+
 #menu.navbar-default {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
@@ -105,6 +115,12 @@ hr {
   font-weight: 700;
   color: white !important;
   text-transform: uppercase;
+}
+
+.nav-item::focus {
+  background-color: red !important;
+  margin: 0;
+  padding: 0;
 }
 
 #menu.navbar-default .navbar-nav>li>a {
@@ -169,6 +185,30 @@ hr {
 .navbar-default .navbar-toggle:hover>.icon-bar {
   background-color: #608dfd;
 }
+
+#menu .dropdown-menu {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: red;
+  color: white !important;
+  background: linear-gradient(135deg, #4b0010, #6b0f1a, #4a0d35);
+}
+
+#menu .dropdown-item {
+  padding: 1rem;
+  font-family: Roboto, Playfair Display, sans-serif;
+  color: white;
+  width: 100%;
+  display: block;
+  border-bottom: 0.5px solid black
+}
+
+#menu .dropdown-item::hover {
+  background-color: red !important;
+  margin: 0;
+  color: white !important;
+}
+
 
 .section-title {
   margin-bottom: 70px;
@@ -337,9 +377,10 @@ header .intro-text {
   margin-top: 1rem;
 }
 
-#features h5{
+#features h5 {
   font-size: 16px;
 }
+
 /* About Section */
 #about {
   background: url(../img/navbar_background.jpg) center center no-repeat;
@@ -601,6 +642,7 @@ header .intro-text {
   margin: 5px 0;
   color: white;
 }
+
 #team h2 {
   color: white;
 }
@@ -643,6 +685,7 @@ header .intro-text {
   transform: scale(1.05);
   box-shadow: 0px 4px 15px rgba(218, 165, 32, 0.5);
 }
+
 /* */
 #tien-ich {
   background-color: #f6f6f6;
@@ -826,15 +869,17 @@ label {
 /* Footer Section*/
 #footer {
   background: #333;
+  background: linear-gradient(135deg, #4b0010, #6b0f1a, #4a0d35);
   padding: 30px 0;
+  padding-bottom: 50px;
 }
 
-#footer h1 h2 h3 h4{
-  color: #999 !important;
+#footer h1 h2 h3 h4 {
+  color: white !important;
 }
 
 #footer p {
-  color: #999;
+  color: white;
   font-size: 14px;
 }
 
@@ -844,6 +889,11 @@ label {
 
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
+}
+
+#footer .logo{
+  width: 200px;
+  height: auto;
 }
 /* Articl*/
 #article {
@@ -875,42 +925,59 @@ label {
 #article .image-container {
   width: 100%;
   /* Ensures the image fills the container width */
-  object-fit: cover;
+  object-fit: contain;
   /* Makes the image behave like a background */
   object-position: center;
   /* Centers the image */
   margin-top: 1rem;
   margin-bottom: 10px;
 }
-#article .divide{
+
+#article .img-contain {
+  object-fit: contain !important;
+  max-height: 500px;
+}
+
+
+#article .divide {
   border-bottom: 0.5px solid black;
   width: 80%;
   margin-bottom: 1rem;
 }
+
 #article a {
   font-size: 16px;
 }
-#article h3{
+
+#article h3 {
   margin-top: 2rem;
 }
+
 /* Google form */
 .google-form-container {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Centers vertically */
-  background: linear-gradient(135deg, #bf101a, #4a0d35); /* Dark luxury red gradient */
+  min-height: 100vh;
+  /* Centers vertically */
+  background: linear-gradient(135deg, #bf101a, #4a0d35);
+  /* Dark luxury red gradient */
   padding: 20px;
 }
 
 .google-form-container iframe {
   width: 100%;
-  max-width: 700px; /* Adjust width */
-  height: 80vh; /* Makes it take 80% of viewport height */
-  border-radius: 10px; /* Smooth rounded corners */
-  border: none; /* Remove default border */
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  max-width: 700px;
+  /* Adjust width */
+  height: 80vh;
+  /* Makes it take 80% of viewport height */
+  border-radius: 10px;
+  /* Smooth rounded corners */
+  border: none;
+  /* Remove default border */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  /* Subtle shadow */
 }
 
 
@@ -918,15 +985,35 @@ label {
   #about img {
     margin: 50px 0;
   }
-  h2{
+
+  h2 {
     font-size: 24px;
   }
-  h4 h5{
+
+  h4 h5 {
     font-size: 16px;
   }
 }
-@media (max-width: 1000px){
-#menu.navbar-default .navbar-nav>li>a {
-    font-size: 14px;
+
+@media (max-width: 994px) {
+  #menu.navbar-default .navbar-nav>li>a {
+    font-size: 12px;
   }
+
+  #menu .logo {
+    height: 40px;
+    margin: 10px 0 0 0;
+  }
+
+  #menu .dropdown-item::hover {
+    color: white !important;
+  }
+}
+
+@media (max-width: 550px) {
+  #uu-diem h2 {
+    text-align: center;
+    font-size: 22px !important;
+  }
+
 }
