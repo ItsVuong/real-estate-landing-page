@@ -60,23 +60,23 @@ export const Navigation = (props) => {
             </li>
             {/* San pham start*/}
             <li class="nav-item dropdown">
-              <a 
-                class="nav-link dropdown-toggle" 
-                href="#" 
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                style={{backgroundColor: 'none', background: 'none'}}
+                style={{ backgroundColor: 'none', background: 'none' }}
               >
                 SẢN PHẨM
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Biệt thự</a>
-                <a class="dropdown-item" href="#">Liền kề</a>
-                <a class="dropdown-item" href="#">Shophouse</a>
-                <a class="dropdown-item" href="#">Chung cư</a>
+                <a class="dropdown-item" href="biet-thu">Biệt thự</a>
+                <a class="dropdown-item" href="lien-ke">Liền kề</a>
+                <a class="dropdown-item" href="shophouse">Shophouse</a>
+                <a class="dropdown-item" href="chung-cu">Chung cư</a>
               </div>
             </li>
             {/* End of San pham*/}
-
+            {/* 
             <li>
               <a href="" className="page-scroll"
                 style={{ fontFamily: 'Roboto, Playfair Display, sans-serif' }}
@@ -84,8 +84,9 @@ export const Navigation = (props) => {
                 TIN TỨC
               </a>
             </li>
+            */}
             <li>
-              <a href="" className="page-scroll"
+              <a href="lien-he" className="page-scroll"
                 style={{ fontFamily: 'Roboto, Playfair Display, sans-serif' }}
               >
                 LIÊN HỆ

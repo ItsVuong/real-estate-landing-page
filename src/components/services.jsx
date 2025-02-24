@@ -22,7 +22,7 @@ export const Services = (props) => {
                   Là sản phẩm đẳng cấp nhất tại dự án với tổng số 285 căn, Có diện tích từ 150m2 – 400m2, được thiết kế theo phong cách Tân cổ điển sang trọng, tinh tế cùng, phong cách kiến trúc độc lập với 4 mặt tiền được xây dựng giữa…
                 </p>
               </div>
-              <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
+              <a href='biet-thu' className="btn btn-primary gold-gradient">Xem chi tiết</a>
             </div>
           </div>
           <div className="col-md-3 col-sm-6 team">
@@ -36,7 +36,7 @@ export const Services = (props) => {
                   Liền kề Wonder Park được thiết kế với chiều cao 4 tầng diện tích linh hoạt từ 88m2 – 96m2 – 110m2 theo phong cách tân cổ điển sang trọng chia làm 2 loại liền kề tiêu chuẩn và liền kề nhà vườn….
                 </p>
               </div>
-              <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
+              <a href='lien-ke' className="btn btn-primary gold-gradient">Xem chi tiết</a>
             </div>
           </div>
           <div className="col-md-3 col-sm-6 team">
@@ -50,7 +50,7 @@ export const Services = (props) => {
                   Là sản phẩm chiến lược tại dự án với tổng số 726 căn, thiết kế cao 4 tầng, diện tích từ 96 – 136 m2 với mặt tiền rộng tới 8m, được bố trí thành các dãy phố tập nập với mặt tiếp giáp với trục đường chính…
                 </p>
               </div>
-              <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
+              <a href='shophouse' className="btn btn-primary gold-gradient">Xem chi tiết</a>
             </div>
           </div>
           <div className="col-md-3 col-sm-6 team">
@@ -64,7 +64,7 @@ export const Services = (props) => {
                   Với thiết kế hợp lý từ 1 đến 3 phòngcăn hộ chung cư  Vinhomes Đan Phượng đáp ứng mọi nhu cầu từ sử dụng của khách hàng, đem đến không gian sống lý tưởng, tiện nghi cho chủ nhân căn hộ….
                 </p>
               </div>
-              <button className="btn btn-primary gold-gradient">Xem chi tiết</button>
+              <a href='chung-cu' className="btn btn-primary gold-gradient">Xem chi tiết</a>
             </div>
           </div>
         </div>
