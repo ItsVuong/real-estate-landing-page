@@ -56,7 +56,7 @@ const Shophouse = () => {
             Tiêu chuẩn cho một cuộc sống xanh – sạch – đẹp, chất lượng dịch vụ đạt tiêu chuẩn 5 sao, một bước chân chạm mọi tiện ích. Vinhomes Wonder City Đan Phượng sẽ làm hài lòng mọi đối tượng khách hàng, xứng đáng là đại đô thị bậc nhất thủ đô, sự lựa chọn hoàn hảo cho nhà đầu tư.
           </p>
 
-          <a href='/' style={{ margin: '10px' }}>Quay về trang chủ</a>
+          <a href='/'>Quay về trang chủ</a>
         </div>
         <div className="row">
           {/* 

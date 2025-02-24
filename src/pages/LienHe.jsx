@@ -9,13 +9,14 @@ const LienHe = () => {
   }, []);
   return (
     <div id="" className=""
+      style={{height: '100%'}}
     >
       <div id="features" className="text-center"
         style={{ marginTop: '50px', paddingBottom: '0px' }}
       >
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-12  section-title" style={{marginBottom: '10px'}}>
+            <div className="col-md-12  section-title" style={{ marginBottom: '10px' }}>
               <h2>THÔNG TIN LIÊN HỆ</h2>
               <p>Văn phòng: SB23-173 Vinhomes Ocean Park, Gia Lâm, Hà Nội</p>
               <p>Liên hệ ngay qua SĐT, Zalo hoặc Facebook</p>
@@ -29,7 +30,7 @@ const LienHe = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary"
-                  style={{ fontSize: "40px", textDecoration: "none"}}
+                  style={{ fontSize: "40px", textDecoration: "none" }}
                 >
                   <i className="fab fa-facebook"></i>
                 </a>

@@ -92,6 +92,10 @@ export const Navigation = (props) => {
                 LIÊN HỆ
               </a>
             </li>
+            <a className="btn btn-primary gold-gradient" style={{ cursor: 'auto'}}>
+              <i className="fas fa-phone" style={{ marginRight: '8px' }}></i>
+              0367083529
+            </a>
           </ul>
         </div>
       </div>

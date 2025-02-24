@@ -67,7 +67,7 @@ const BietThu = () => {
             Các nhà đâu tư dự đoán, các căn biệt thự Vinhomes Wonder sẽ là “cơn sốt” trên thị trường BĐS vào thời điểm mở, bởi sức hút và số lượng có hạn. Hãy nhanh tay đăng ký để được tư vấn và nhận báo giá trực tiếp từ CĐT.
           </p>
 
-          <a href='/' style={{ margin: '10px' }}>Quay về trang chủ</a>
+          <a href='/'>Quay về trang chủ</a>
         </div>
         <div className="row">
           {/* 

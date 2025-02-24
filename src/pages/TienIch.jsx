@@ -70,7 +70,7 @@ Ngoài ra, đây cũng là điểm lý tưởng thu hút bạn bè, quan khách 
             style={{objectFit: 'contain', maxHeight: '450px'}}
           />
           <div style={{ marginBottom: '10px' }}></div>
-          <a href='/' style={{ margin: '10px' }}>Quay về trang chủ</a>
+          <a href='/' >Quay về trang chủ</a>
         </div>
       </div>
     </div>

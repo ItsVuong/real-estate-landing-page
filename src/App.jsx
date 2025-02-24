@@ -12,6 +12,7 @@ import LienKe from "./pages/LienKe";
 import Shophouse from "./pages/ShopHouse";
 import ChungCu from "./pages/ChungCu";
 import LienHe from "./pages/LienHe";
+import PopupNotification from "./components/Popup";
 
 
 const App = () => {

@@ -55,7 +55,7 @@ const ChinhSach = () => {
           <p>
             Bài viết trên là chính sách bán hàng Vinhomes Wonder City (dự kiến) được đúc kết từ các dự án trước đây của CĐT. Thông tin chi tiết sẽ được chúng tôi cập nhật trong thời gian sớm nhất.
           </p>
-          <a href='/' style={{ margin: '10px' }}>Quay về trang chủ</a>
+          <a href='/'>Quay về trang chủ</a>
 
         </div>
         <div className="row">

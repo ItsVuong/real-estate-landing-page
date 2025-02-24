@@ -90,7 +90,7 @@ const MatBang = () => {
           <img src="img/vitri/hoang-gia.jpeg" className="image-container"
           alt='Phân khu Hoàng Gia (The Royal) Wonder City'/>
 
-          <a href='/' style={{ margin: '10px' }}>Quay về trang chủ</a>
+          <a href='/'>Quay về trang chủ</a>
         </div>
         <div className="row">
           {/* 

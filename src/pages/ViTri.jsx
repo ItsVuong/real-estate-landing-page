@@ -63,7 +63,7 @@ const ViTri = () => {
           <p>
             Với những ưu điểm nổi bật trên, vị trí Vinhomes Wonder City đã mang lại rất nhiều tiềm năng phát triển tương lai của dự án. Đây chắc chắn sẽ là cơ hội đầu tư không thể bỏ qua của các nhà đầu tư.
           </p>
-          <a href='/' style={{ margin: '10px' }}>Quay về trang chủ</a>
+          <a href='/'>Quay về trang chủ</a>
 
         </div>
         <div className="row">

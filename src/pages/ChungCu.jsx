@@ -85,7 +85,7 @@ const ChungCu = () => {
             Với những thông tin trên, chúng ta đều có thể mường tượng ra một cuộc sống lý tưởng khi lựa chọn chung cư Vinhomes Wonder City. Không nhưng đem đến cuộc sống tiện nghi, đẳng cấp cho cư dân, chủ đầu tư còn tập trung quy hoạch cảnh quan, khuôn viên cây xanh để mang đến 1 môi trường sống bình yên và trong lành nhất cho khách hàng.
           </p>
 
-          <a href='/' style={{ margin: '10px' }}>Quay về trang chủ</a>
+          <a href='/'>Quay về trang chủ</a>
         </div>
         <div className="row">
           {/* 
