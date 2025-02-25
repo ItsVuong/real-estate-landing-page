@@ -12,25 +12,51 @@ import LienKe from "./pages/LienKe";
 import Shophouse from "./pages/ShopHouse";
 import ChungCu from "./pages/ChungCu";
 import LienHe from "./pages/LienHe";
-import PopupNotification from "./components/Popup";
+import BaoMat from "./pages/BaoMat";
+import { ToastContainer, toast } from 'react-toastify';
+import { useEffect } from "react";
+
 
 
 const App = () => {
+  const runOnLoad = () => {
+    toast(<div>
+      Liên hệ ngay:
+      <a href='lien-he' style={{marginLeft: "10px"}}className="btn btn-primary">Tại đây!</a>
+    </div>,
+      {
+      position: "bottom-right",
+      autoClose: false,
+      closeOnClick: false,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      })
+  }
+  useEffect(() => {
+    const url = window.location.href; // Get the current URL
+    if (!url.includes('lien-he')) {
+      runOnLoad();
+    }
+  })
   return (
     <>
       <Navigation />
+      <ToastContainer />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/mat-bang" element={<MatBang />} />
-          <Route path="/vi-tri" element={<ViTri/>}/>
-          <Route path="/tien-ich" element={<TienIch/>}/>
-          <Route path="/chinh-sach" element={<ChinhSach/>}/>
-          <Route path="/biet-thu" element={<BietThu/>}/>
-          <Route path="/lien-ke" element={<LienKe/>}/>
-          <Route path="/shophouse" element={<Shophouse/>}/>
-          <Route path="/chung-cu" element={<ChungCu/>}/>
-          <Route path="/lien-he" element={<LienHe/>}/>
+          <Route path="/vi-tri" element={<ViTri />} />
+          <Route path="/tien-ich" element={<TienIch />} />
+          <Route path="/chinh-sach" element={<ChinhSach />} />
+          <Route path="/biet-thu" element={<BietThu />} />
+          <Route path="/lien-ke" element={<LienKe />} />
+          <Route path="/shophouse" element={<Shophouse />} />
+          <Route path="/chung-cu" element={<ChungCu />} />
+          <Route path="/lien-he" element={<LienHe />} />
+          <Route path="/bao-mat" element={<BaoMat />} />
         </Routes>
       </BrowserRouter>
       <Footer />

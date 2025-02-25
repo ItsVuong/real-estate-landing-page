@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import { ToastContainer, toast } from 'react-toastify';
 
 const initialState = {
   name: "",
@@ -15,29 +16,30 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
+
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_ibkugag", "template_9zjk23h", e.target, "hQpMn74dRphk7R4pk")
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
           clearState();
+          toast.success("Thông tin đã được ghi nhận!");
         },
         (error) => {
+          toast.success("Xin vui lòng thử lại sau hoặc liên hệ trực tiếp.");
           console.log(error.text);
         }
       );
   };
   return (
     <div>
-      <div id="contact" style={{paddingTop: '20px'}}>
+      <div id="contact" style={{ paddingTop: '20px' }}>
         <div className="container">
           <div className="col-md-12">
             <div className="row">
@@ -54,9 +56,9 @@ export const Contact = (props) => {
                       <input
                         type="text"
                         id="name"
-                        name="Tên"
+                        name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Tên"
                         required
                         onChange={handleChange}
                       />
@@ -68,7 +70,7 @@ export const Contact = (props) => {
                       <input
                         type="email"
                         id="email"
-                        name="Email"
+                        name="email"
                         className="form-control"
                         placeholder="Email"
                         required
@@ -80,8 +82,8 @@ export const Contact = (props) => {
                 </div>
                 <div className="form-group">
                   <input
-                    name="phone"
-                    id="phone"
+                    name="message"
+                    id="message"
                     className="form-control"
                     rows="4"
                     placeholder="SĐT"
@@ -99,6 +101,7 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
+        <ToastContainer position="bottom-left" />
     </div>
   );
 };

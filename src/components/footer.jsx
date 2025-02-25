@@ -36,6 +36,11 @@ export const Footer = () => {
                     style={{ color: 'white' }}
                   >Chính sách</a>
                 </li>
+                <li>
+                  <a href='/bao-mat'
+                    style={{ color: 'white' }}
+                  >Chính sách bảo mật</a>
+                </li>
               </l>
             </p>
           </div>
