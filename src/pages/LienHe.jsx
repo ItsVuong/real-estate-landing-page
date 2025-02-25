@@ -9,7 +9,6 @@ const LienHe = () => {
   }, []);
   return (
     <div id="" className=""
-      style={{ height: '100%' }}
     >
       <div id="features" className="text-center"
         style={{ marginTop: '50px', paddingBottom: '0px' }}
@@ -53,6 +52,7 @@ const LienHe = () => {
             </div>
           </div>
         </div>
+            <Contact/>
       </div>
     </div>
   );

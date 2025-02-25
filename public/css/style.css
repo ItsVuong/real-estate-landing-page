@@ -721,10 +721,21 @@ header .intro-text {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
+  background: url(../img/navbar_background.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 #contact .section-title {
   margin-bottom: 40px;
+}
+
+#contact form {
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 #contact .section-title p {
@@ -891,10 +902,11 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-#footer .logo{
+#footer .logo {
   width: 200px;
   height: auto;
 }
+
 /* Articl*/
 #article {
   background: #f6f6f6;
@@ -1011,6 +1023,10 @@ label {
   #menu .dropdown-item::hover {
     color: white !important;
   }
+  #contact form {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -1018,5 +1034,6 @@ label {
     text-align: center;
     font-size: 22px !important;
   }
+
 
 }
