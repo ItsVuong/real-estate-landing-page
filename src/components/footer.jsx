@@ -34,7 +34,7 @@ export const Footer = () => {
                 <li>
                   <a href='/chinh-sach'
                     style={{ color: 'white' }}
-                  >Chính sách</a>
+                  >Chính sách bán hàng</a>
                 </li>
                 <li>
                   <a href='/bao-mat'

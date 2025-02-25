@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Contact } from "../components/contact";
-import GoogleForm from "../components/GoogleForm";
 
 const LienHe = () => {
 
@@ -52,7 +51,7 @@ const LienHe = () => {
             </div>
           </div>
         </div>
-            <Contact/>
+        <Contact />
       </div>
     </div>
   );

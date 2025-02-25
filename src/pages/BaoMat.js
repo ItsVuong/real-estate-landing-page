@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 const BaoMat = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const openImage = (imgSrc) => {
   useEffect(() => {
     document.title = "Chính sách bảo mật";
   }, []);

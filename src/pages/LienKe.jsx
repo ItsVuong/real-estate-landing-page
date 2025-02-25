@@ -1,13 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, {  useEffect } from "react";
 
 const LienKe = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
 
-  const openImage = (imgSrc) => {
-    setSelectedImage(imgSrc);
-    const modal = new window.bootstrap.Modal(document.getElementById("imageModal"));
-    modal.show();
-  };
   useEffect(() => {
     document.title = "Biệt thự liền kề Vinhomes Wonder City Đan Phượng";
   }, []);
