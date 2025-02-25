@@ -5,7 +5,7 @@ import GoogleForm from "../components/GoogleForm";
 const LienHe = () => {
 
   useEffect(() => {
-    document.title = "Shophouse Vinhomes Wonder City Đan Phượng";
+    document.title = "Thông tin liên hệ";
   }, []);
   return (
     <div id="" className=""

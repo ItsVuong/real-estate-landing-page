@@ -4,12 +4,8 @@ const BaoMat = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const openImage = (imgSrc) => {
-    setSelectedImage(imgSrc);
-    const modal = new window.bootstrap.Modal(document.getElementById("imageModal"));
-    modal.show();
-  };
   useEffect(() => {
-    document.title = "Biệt thự Vinhomes Wonder City Đan Phượng";
+    document.title = "Chính sách bảo mật";
   }, []);
   return (
     <div id="article" className="">

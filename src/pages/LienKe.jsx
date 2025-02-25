@@ -9,7 +9,7 @@ const LienKe = () => {
     modal.show();
   };
   useEffect(() => {
-    document.title = "Biệt thự Vinhomes Wonder City Đan Phượng";
+    document.title = "Biệt thự liền kề Vinhomes Wonder City Đan Phượng";
   }, []);
   return (
     <div id="article" className="">
