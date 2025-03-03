@@ -7,7 +7,7 @@ const LienHe = () => {
     document.title = "Thông tin liên hệ";
   }, []);
   return (
-    <div id="" className=""
+    <div id="lienhe" className=""
     >
       <div id="features" className="text-center"
         style={{ marginTop: '50px', paddingBottom: '0px' }}

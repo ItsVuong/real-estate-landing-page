@@ -12,98 +12,64 @@ const MatBang = () => {
     document.title = "Mặt Bằng Vinhomes Wonder City";
   }, []);
   return (
-    <div id="article" className="">
-      <div className="container">
-        <div className="col-md-10 col-md-offset-1">
-          <h2>Mặt bằng Vinhomes Wonder City Đan Phượng</h2>
-          <p>
-            Dự án Vinhomes Wonder City cũng giống như những dự án cao cấp khác của tập đoàn Vingroup, đều được thiết kế với quy mô hoành tráng, hiện đại, thượng lưu cũng như độc đáo nhất trên thị trường hiện nay.
+    <>
+      <div id="article" className="">
+        <div className="container">
+          <div className="col-md-10 col-md-offset-1">
+            <h2>MẶT BẰNG VINHOMES ĐAN PHƯỢNG – ĐIỂM NHẤN CHÍNH TẠI 2 PHÂN KHU</h2>
+            <p>
+              Dự án Vinhomes Đan Phượng còn được biết đến với tên gọi thương mại là Vinhomes Wonder City, một dự án thông minh tại phía Tây Hà Nội. Với quy hoạch đồng bộ, thiết kế hiện đại và hệ thống tiện ích vượt trội, dự án mang đến một thiên đường an cư lý tưởng cho cư dân tinh hoa. Đặc biệt, mặt bằng Vinhomes Đan Phượng đã được điều chỉnh và nâng cấp với hai phân khu Hừng Đông và Bình Minh, tạo nên một bức tranh đô thị hài hòa giữa sự sôi động và yên bình. Vậy điều gì khiến dự án này trở thành tâm điểm của thị trường bất động sản? Hãy cùng khám phá ngay bây giờ!
+            </p>
+            <img src="img/vitri/l4.jpg" className="image-container"
+              alt='Mặt bằng Vinhomes Wonder City'
+              onClick={() => openImage("img/vitri/l4.jpg")}
+            />
+            <h3>TỔNG MẶT BẰNG VINHOMES WONDER CITY ĐAN PHƯỢNG</h3>
+            <div className="divide"></div>
+            <p>
+              Vinhomes Đan Phượng là khu đô thị cao cấp được Tập đoàn Vingroup đầu tư phát triển, sở hữu quy mô lên tới 133ha, được thiết kế theo mô hình “Thành phố của những trải nghiệm”, lấy cảm hứng từ những đô thị hiện đại trên thế giới.
+            </p>
+            <p>
+              Một trong những điểm nổi bật trên mặt bằng Vinhomes Wonder City chính là dự án được quy hoạch bài bản, phân chia thành hai phân khu đô thị chính: Phân khu Hừng Đông (Wonder Avenue) mang phong cách hiện đại, sôi động, phù hợp với những cư dân yêu thích sự tiện nghi và kết nối. Phân khu Bình Minh (Wonder Bay) được thiết kế theo hướng sinh thái, yên bình, tận dụng lợi thế mặt nước để mang đến không gian sống trong lành.
+            </p>
+            <img src="img/tong-the-du-an.jpg" className="image-container"
+              alt='Tiến độ Vinhomes Wonder City'
+            />
 
-            Mặt bằng Vinhomes Wonder City được quy hoạch trên tổng diện tích đất là 133ha và được chia thành 3 phân khu đó là: The Light, The Time và The Royal. Dự kiến sẽ có khoảng hơn 2350 căn biệt thự phân bố đều tại cả 3 phân khu.
-          </p>
-          <img src="img/vitri/l4.jpg" className="image-container" 
-            alt='Mặt bằng Vinhomes Wonder Park'
-            onClick={() => openImage("img/vitri/l4.jpg")}
-          />
-          <h3>Tổng thể mặt bằng Vinhomes Wonder City</h3>
-          <div className="divide"></div>
-          <p>
-            Mật độ xây dựng của dự án chỉ khoảng 25% tổng diện tích quy hoạch, diện tích còn lại sẽ bao gồm:
-            <l>
-              <li><strong>Diện tích nhà ở:</strong> 30ha</li>
-              <li><strong>Diện tích vườn hoa, cây cảnh:</strong> 3.5ha</li>
-              <li><strong>Diện tích cây xanh:</strong> 20ha</li>
-              <li><strong>Diện tích đường nội khu:</strong> 26ha</li>
-              <li><strong>Diện tích khu chức năng:</strong> 12ha</li>
-              <li><strong>Diện tích trường học:</strong> 2ha</li>
-            </l>
-          </p>
-          <img src="img/vitri/l2.jpg" className="image-container" 
-            alt='Tiến độ Vinhomes Wonder Park'
-          />
+            <h3>Mặt Bằng Phân Khu Hừng Đông (Wonder Avenue)</h3>
+            <div className="divide"></div>
+            <p>
+              <strong>Phân khu phố Hừng Đông (Wonder Avenue)</strong> với vị trí nằm ở phía Bắc và Tây Bắc trên mặt bằng dự án Vinhomes Đan Phượng, được xem là phân khu có thế mạnh về kinh doanh buôn bán, trung tâm sầm uất và năng động nhất Vinhomes Đan Phượng. Đây là khu vực tập trung nhiều tiện ích lớn như trung tâm thương mại Vincom Mega Mall, hệ thống trường học Vinschool, khu thể thao đa năng và khu vui chơi giải trí hiện đại. Phân khu Hừng Đông sở hữu vị trí tiếp giáp trục đường 422 hiện hữu (sắp tới con đường này sẽ được mở rộng lên 24m). Bên cạnh đó với đường Tây Thăng Long đang được triển khai gấp rút.
+            </p>
+            <img src="img/tong-the-du-an-2.webp" className="image-container"
+              alt='Hình ảnh phân khu Hừng Đông (Wonder Avenue)'
+            />
+            <p>
+              Trong phân khu bao gồm đầy đủ các loại sản phẩm thấp tầng và cao tầng như: biệt thự đơn lập, biệt thự song lập, nhà liền kề và shophouse với tổng số 1.521 căn và 2 tòa cao tầng. Đan xen với các căn thấp tầng và cao tầng đó là hệ thống công viên và trường học, đặc biệt phân khu Hừng Đông còn có di tích lịch sử Quốc Gia Lăng Văn Sơn nằm bên trong, khu di tích này sẽ được Vingroup mở rộng hơn và tu sửa lại để khách tham quan cũng như cư dân trong dự án có thể đến thắp hương.
+            </p>
 
-          <h3>Mặt bằng phân khu Ánh Dương (The Light)</h3>
-          <div className="divide"></div>
-          <p>
-            Phân khu Ánh Dương (The Light) nằm gần với mặt đường Tây Thăng Long đang được triển khai xây dựng và còn tiếp giáp trục đường 422 (sẽ được mở rộng lên 24m trong thời gian tới). Đây sẽ là phân khu sôi động nhất dự án Vinhomes Wonder City bởi nơi đây tập trung hầu hết các căn Shophouse của dự án,cùng với đó là TTTM Vincom Megamall với đa dạng hàng hóa và loại hình dịch vụ giải trí.
-          </p>
-          <img src="img/vitri/anh-duong.jpeg" className="image-container" 
-            alt='Phân khu ánh dương (The Light) Wonder Park)'
-          />
-          <p>
-            Phân khu Ánh Dương (The Light) có tổng số 729 căn, gồm đầy đủ các loại sản phẩm thấp tầng như: biệt thự đơn lập, biệt thự song lập, nhà liền kề và shophouse. Cụ thể như sau:
-            <l>
-              <li><strong>Biệt thự đơn lập:</strong> 5 căn</li>
-              <li><strong>Biệt thự song lặp:</strong> 8 căn</li>
-              <li><strong>Shophouse:</strong> 233 căn</li>
-              <li><strong>Nhà liền kề:</strong> 483 căn</li>
-            </l>
-          </p>
-          <p>
-            Mật độ xây dựng trung bình tại phân khu vào khoảng 75% – 80%, tất cả các căn sẽ được xây 4 tầng, và dự kiến sẽ được bàn giao thô, oàn thiện mặt ngoài giống như các dự án khác của Vingroup.
-          </p>
+            <h3>
+              Mặt Bằng Phân Khu Bình Minh (Wonder Bay)
+            </h3>
+            <div className="divide"></div>
+            <p>
+              Khác với sự sôi động của phố Hừng Đông, phân khu Bình Minh (Wonder Bay) mang đến một không gian sống yên bình, gần gũi với thiên nhiên. Nằm tại phía Đông Nam của dự án, phân khu này được thiết kế theo phong cách sinh thái, tận dụng lợi thế mặt nước, kênh sinh thái và hồ điều hòa để tạo nên một môi trường sống trong lành. Mặt bằng Vin Wonder City phân khu Bình Minh (Wonder Bay) được định vị là phân khu cao cấp nhất tại dự án Vinhomes Đan Phượng và sẽ trở thành phân khu đóng giống như các phân khu tại các dự án như Vinhomes Green Bay, Vinhomes Ocean Park… điều này góp phần mang đến cho cư dân tinh hoa một cuộc sống yên bình, không ảnh hưởng tới sự riêng tư.
+            </p>
+            <img src="img/phan-khu-binh-minh.webp" className="image-container"
+              alt='Phân khu Thời Đại (The Time) Wonder City'
+            />
+            <p>
+              Mặt bằng phân khu Bình Minh (Wonder Bay) với 835 căn thấp tầng và 2 tòa chung cư. Đan xen với các căn thấp tầng và cao tầng đó là bệnh viện Vinmec, trường học Vinschool và cụm công viên thể thao tổng hợp, công viên Warlist Park được chủ đầu tư Vingroup quy hoạch bài bản, mang đến không gian sống tràn ngập hơi thở tự nhiên dành cho cư dân. Phân khu Bình Minh (Wonder Bay) với số lượng 835 căn, ít hơn so với 1.521 căn của phân khu Hừng Đông (Wonder Avenue), nhưng chính điều này lại mang đến những lợi thế đặc biệt. Trước hết, mật độ dân cư thấp giúp cư dân tận hưởng không gian sống yên tĩnh, riêng tư, tránh sự đông đúc, ồn ào.
+            </p>
+            <p>
+              Bên cạnh đó, phân khu Bình Minh được quy hoạch với nhiều không gian xanh, hồ điều hòa, kênh sinh thái và công viên ven sông, tạo nên môi trường sống trong lành, thoáng đãng, tốt cho sức khỏe. Ngoài ra, số lượng căn hộ ít giúp cư dân có trải nghiệm sử dụng tiện ích thoải mái hơn, từ hồ bơi, công viên, đến bệnh viện Vinmec ngay trong nội khu. Đặc biệt, với tính khan hiếm, bất động sản tại phân khu Bình Minh có tiềm năng tăng giá cao, nhất là khi khu vực Đan Phượng phát triển mạnh mẽ. Nhờ những lợi thế này, phân khu Bình Minh trở thành lựa chọn lý tưởng cho những ai tìm kiếm một không gian sống đẳng cấp, gần gũi thiên nhiên và đầy tiềm năng đầu tư.
+            </p>
+            <a href='/'>Quay về trang chủ</a>
 
-          <h3>
-            Mặt bằng phân khu Thời Đại (The Time)
-          </h3>
-          <div className="divide"></div>
-          <p>
-            Theo tổng thể mặt bằng Vinhomes Wonder City thì phân khu Thời Đại (The Times) nằm tại vị trí trung tâm dự án, gần với các cụm tiện ích lớn đẳng cấp của dự án như: bể bơi trong nhà và ngoài trời, công viên GYM, BBQ, sân thể thao,…
-          </p>
-          <p>
-            Phân khu Thời Đại (The Times) tập trung xây dựng 2 loại hình chính là: Nhà liên kề + Shophouse, cùng các loại tiện ích đa dạng. Và chỉ có 10 căn biệt thự song lập + 4 căn biệt thự đơn lập.
-          </p>
-          <img src="img/vitri/thoi-dai.jpeg" className="image-container" 
-            alt='Phân khu Thời Đại (The Time) Wonder City'
-          />
-
-          <h3>
-            Phân khu Hoàng Gia (The Royal)
-          </h3>
-          <div className="divide"> </div>
-          <p>
-            Phân khu Hoàng Gia (The Royal) là phân khu đẳng cấp nhất dự án Vinhomes Wonder City, được xây dựng với chủ yếu 2 loại hình sản phẩm là: Biệt thự đơn lập và Biệt thự song lập, trải dài theo đại lô Hoàng Gia với diện tích các căn biệt thự từ 228m2 – 400m2.
-          </p>
-          <p>
-            Nơi đây được CĐT quy hoạch thành một khu tương đối riêng biệt, yên tĩnh, nằm gần với đê Thượng Cát. Nhưng từ phân khu Hoàng Gia đi tới các cụm tiện ích trung tâm cũng không quá xa. Phân khu này sẽ phù hợp với các khách hàng tầm trung niên trở đi. Những người mong muốn có một không gian yên tĩnh để nghỉ ngơi, thư giãn.
-          </p>
-          <img src="img/vitri/hoang-gia.jpeg" className="image-container"
-          alt='Phân khu Hoàng Gia (The Royal) Wonder City'/>
-
-          <a href='/'>Quay về trang chủ</a>
-        </div>
-        <div className="row">
-          {/* 
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
-          */}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

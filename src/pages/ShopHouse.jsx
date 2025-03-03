@@ -28,7 +28,7 @@ const Shophouse = () => {
             Các căn Shophouse Vinhomes Wonder City sẽ được bố trí nằm tại những vị trí vô cùng đắc địa và thuận lợi của dự án như: dọc các trục đường lớn nội khu, trải dài dọc các tuyến đường đi bộ chạy xuyên tâm dự án,… Đây là những tuyến đường kết nối giữa các phân khu của dự án cũng như với các địa điểm tiện ích bên ngoài, các khu nhà chung cư, văn phòng…
           </p>
           <img src="img/shophouse2.jpg" className="image-container"
-            alt='Shophouse Vihnhomes Wonder Park'
+            alt='Shophouse Vihnhomes Wonder City'
           />
           <p>
             Việc sở hữu những vị trí chiến lược này sẽ rất thuận tiện cho việc sinh hoạt, di chuyển vô cùng thuận tiện, thúc đẩy kinh doanh, buôn bán, giải trí…. Đặc biệt tại nơi có cư dân đông đúc như dự án Vinhomes Wonder City, các căn Shophouse tại đây sẽ là địa điểm kinh doanh lý tưởng cho các hộ gia đình muốn kết hợp việc kinh doanh ngay tại nhà

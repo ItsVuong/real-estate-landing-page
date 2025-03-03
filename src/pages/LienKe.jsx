@@ -26,7 +26,7 @@ const LienKe = () => {
             Biệt thự liền kề Vinhomes Wonder City là sản phẩm chiến lược tại dự án với số lượng lớn tại cả 3 phân khu The Lights, The Times và The Royal. Và sẽ được bố trí đều khắp ở tất cả các phân khu của dự án, ưu tiên bố trí ở những vị trí yên tĩnh, cách xa các trục đường lớn nhiều phương tiện qua lại, gần các tiện ích như trường học, công viên…, phù hợp với nhu cầu sử dụng để ở của khách hàng
           </p>
           <img src="img/nha1.jpeg" className="image-container"
-            alt='Biệt thự liền kề Vihnhomes Wonder Park'
+            alt='Biệt thự liền kề Vihnhomes Wonder City'
           />
           <p>
             Những căn biệt thự được thiết kế tối ưu với diện tích dự kiến từ 80m2 – 185m2 , xây dựng 4 tầng, với 2-3 phòng ngủ, được thiết kế độc đáo với cửa vòm rộng, ban công hướng ra ngoại cảnh đáp ứng nhu cầu sử dụng của gia chủ. Lối kiến trúc từ Pháp, Italia, Hy Lạp khoác lên mình sự sang trọng, hiện đại, bắt mắt cho những căn biệt thự liền kề Vinhomes Wonder City.

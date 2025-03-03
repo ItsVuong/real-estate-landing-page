@@ -53,7 +53,7 @@ const ChungCu = () => {
             </l>
           </p>
           <img src="img/chung-cu/chungcu1.jpg" className="image-container"
-            alt='Chung cư Vihnhomes Wonder Park'
+            alt='Chung cư Vihnhomes Wonder City'
           />
 
           <h3>Chung cư Vinhomes Wonder City</h3>
@@ -62,7 +62,7 @@ const ChungCu = () => {
             Chung cư Vinhomes Wonder City gồm có dãy 2 tòa căn hộ, nằm ngay tại trung tâm của dự án. Hiện tại, chủ đầu tư vẫn chưa hé lộ thông tin là sẽ phát triển theo dòng căn hộ Sapphire, Ruby hay Diamond. Tuy nhiên với vị trí đắc địa, tiếp giáp với quảng trường ánh sáng và công viên đại dương Blue Marine, chung cư tại Vinhomes Wonder City hứa hẹn sẽ đem đến những trải nghiệm sống cực kỳ chất lượng, không hề thua kém với dòng sản phẩm thấp tầng.
           </p>
           <img src="img/chung-cu/chungcu2.jpg" className="image-container"
-            alt='Căn hộ Vihnhomes Wonder Park'
+            alt='Căn hộ Vihnhomes Wonder City'
           />
           <p>
             Các căn hộ chung cư Vinhomes Dream City được thiết kế hiện đại, đẳng cấp, tối ưu không gian sử dựng cho gia chủ. Nội thất bên trong các căn hộ được nhập từ những thương hiệu nổi tiếng, đảm bảo chất lượng, thời gian sử dụng lâu bên nhưng giá thành vẫn phù hợp với khách hàng.

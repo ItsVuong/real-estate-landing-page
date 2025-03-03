@@ -16,7 +16,7 @@ const TienIch = () => {
             Tại Vinhomes Wonder City, cư dân sẽ được tận hưởng trọn vẹn từng phút giấy cuộc sống với không gian xanh mát giữa lòng thành phố, các địa điểm vui chơi giải trí 4 mùa, những không gian yên bĩnh bên gia đình, góp phần nâng tầm cuộc sống của cư dân.
           </p>
           <img src="img/tien-ich/park.jpg" className="image-container"
-            alt='Vinhomes Wonder Park có hệ thống công viên, các địa điểm vui chơi'
+            alt='Vinhomes Wonder City có hệ thống công viên, các địa điểm vui chơi'
           />
           <h3>Diện tích quy hoạch tiện ích Vinhomes Wonder City</h3>
           <div className="divide"></div>
@@ -27,7 +27,7 @@ const TienIch = () => {
             Cùng với đó là hệ thống hạ tầng đồng bộ theo mô hình chuẩn của Vinhomes gồm trường học, bệnh viện, trung tâm thương mại Vincom đáp ứng được gần như đầy đủ các nhu cầu sống cao cấp của cư dân.
           </p>
           <img src="img/tien-ich/park2.jpg" className="image-container"
-            alt='Tiến độ Vinhomes Wonder Park'
+            alt='Tiến độ Vinhomes Wonder City'
           />
 
           <h3>Tiện ích Vinhomes Wonder City</h3>

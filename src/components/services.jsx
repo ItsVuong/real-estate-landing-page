@@ -33,7 +33,7 @@ export const Services = (props) => {
                 <h4>Nhà liền kề
                 </h4>
                 <p>
-                  Liền kề Wonder Park được thiết kế với chiều cao 4 tầng diện tích linh hoạt từ 88m2 – 96m2 – 110m2 theo phong cách tân cổ điển sang trọng chia làm 2 loại liền kề tiêu chuẩn và liền kề nhà vườn….
+                  Liền kề Wonder City được thiết kế với chiều cao 4 tầng diện tích linh hoạt từ 88m2 – 96m2 – 110m2 theo phong cách tân cổ điển sang trọng chia làm 2 loại liền kề tiêu chuẩn và liền kề nhà vườn….
                 </p>
               </div>
               <a href='lien-ke' className="btn btn-primary gold-gradient">Xem chi tiết</a>

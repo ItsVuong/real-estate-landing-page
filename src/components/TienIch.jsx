@@ -77,7 +77,7 @@ export const TienIch = (props) => {
           <div className="col-md-4 col-sm-6 team">
             <div className="thumbnail">
               {" "}
-              <img src='img/park.jpeg' alt="..." className="team-img"
+              <img src='img/tien-ich-cong-vien.jpg' alt="..." className="team-img"
                 style={{ width: '100%' }}
               />
               <div className="caption">

@@ -32,7 +32,7 @@ const BietThu = () => {
             Bốn mặt biệt thự đơn lập đều có mặt thoáng về không gian, diện tích để gia chủ thoải mái thiết kế “khu vườn cổ tích” mang dấu ấn riêng, tôn lên vẻ đẹp độc đáo của biệt thự, tận hưởng không khí trong lành, không gian thoải mái, tư do đậm chất Privacy & gần gũi với thiên nhiên.
           </p>
           <img src="img/biet-thu/bt1.jpg" className="image-container"
-            alt='Biệt thự Vihnhomes Wonder Park'
+            alt='Biệt thự Vihnhomes Wonder City'
           />
           <p>
             Điều đáng lưu ý là phần diện tích xây dựng của Biệt thự Vinhomes Wonder City Đơn Lập sẽ không tiếp giáp với bất kỳ mặt tường rào nào xung quanh cả. Phần khoảng cách từ biệt thự cho đến tường rào được tính toán sao cho đủ cho chủ nhân đi lại một cách bình thường và thoải mái.
@@ -50,7 +50,7 @@ const BietThu = () => {
             Đây là loại hình sản phẩm được thiết kế độc đáo, với hai căn biệt thự đối xứng với nhau để tạo thành một lối kiến trúc hoàn hảo. Các căn biệt thự song lập Vinhomes Wonder City có diện tích 150m2 – 300m2, nhỏ hơn những căn đơn lập và chỉ có 3 mặt tiền. Vì thế giá thành các căn biệt thự song lập sẽ ở tầm trung, phù hợp với túi tiền và nhu cầu của đa dạng khách hàng.
           </p>
           <img src="img/biet-thu/bt2.jpg" className="image-container"
-            alt='Phân khu ánh dương (The Light) Wonder Park)'
+            alt='Phân khu ánh dương (The Light) Wonder City)'
           />
           <p>
             Các căn biệt thự song lập tại Vinhomes Wonder City được thiết kế với 4 tầng hiện đại theo phong cách châu Âu, phù hợp với nhu cầu và thị hiếu của người Việt Nam. Những căn song lập được đặt tại vị trí đẹp tại dự án, gần với khu vực hồ, bể bơi và khu tiện ích của toàn dự án.
