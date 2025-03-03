@@ -1,4 +1,4 @@
-import React, {  useEffect } from "react";
+import React, { useEffect } from "react";
 
 const LienKe = () => {
 
@@ -11,11 +11,14 @@ const LienKe = () => {
         <div className="col-md-10 col-md-offset-1">
           <h2>Liền kề Vinhomes Wonder City Đan Phượng</h2>
           <p>
-               Liền kề Vinhomes Wonder City Đan Phượng là loại hình sản phẩm chủ yếu tại dự án, với thiết kế đẳng cấp, hiện đại, giá bán không quá cao và những ưu đãi dành tặng từ chủ đầu tư, đang thu hút được sự quan tâm của đại đa số khách hàng và các nhà đầu tư hiện nay.
+            Liền kề Vinhomes Wonder City Đan Phượng là loại hình sản phẩm chủ yếu tại dự án, với thiết kế đẳng cấp, hiện đại, giá bán không quá cao và những ưu đãi dành tặng từ chủ đầu tư, đang thu hút được sự quan tâm của đại đa số khách hàng và các nhà đầu tư hiện nay.
           </p>
           <p>
             Vậy các căn liền kề tại dự án Vinhomes Wonder City có điểm gì nổi bật để làm nên sức hút như vây? Hãy cùng tìm hiểu trong bài viết dưới đây.
           </p>
+          <img src="img/nha1.jpeg" className="image-container"
+            alt='Biệt thự liền kề Vihnhomes Wonder City'
+          />
 
           <h3>Giới thiệu về biệt thự liền kề Vinhomes Wonder City</h3>
           <div className="divide"></div>
@@ -25,8 +28,8 @@ const LienKe = () => {
           <p>
             Biệt thự liền kề Vinhomes Wonder City là sản phẩm chiến lược tại dự án với số lượng lớn tại cả 3 phân khu The Lights, The Times và The Royal. Và sẽ được bố trí đều khắp ở tất cả các phân khu của dự án, ưu tiên bố trí ở những vị trí yên tĩnh, cách xa các trục đường lớn nhiều phương tiện qua lại, gần các tiện ích như trường học, công viên…, phù hợp với nhu cầu sử dụng để ở của khách hàng
           </p>
-          <img src="img/nha1.jpeg" className="image-container"
-            alt='Biệt thự liền kề Vihnhomes Wonder City'
+          <img src="img/nha-lien-ke-1.jpg" className="image-container"
+            alt='Thiết kế nhà liền kề Vinhomes Wonder City'
           />
           <p>
             Những căn biệt thự được thiết kế tối ưu với diện tích dự kiến từ 80m2 – 185m2 , xây dựng 4 tầng, với 2-3 phòng ngủ, được thiết kế độc đáo với cửa vòm rộng, ban công hướng ra ngoại cảnh đáp ứng nhu cầu sử dụng của gia chủ. Lối kiến trúc từ Pháp, Italia, Hy Lạp khoác lên mình sự sang trọng, hiện đại, bắt mắt cho những căn biệt thự liền kề Vinhomes Wonder City.
@@ -34,6 +37,9 @@ const LienKe = () => {
           <p>
             Hướng đến sự nhẹ nhàng, tinh tế, đơn giản nhấn mạnh vào những bức tường, hàng cột dài thẳng tắp, không cầu kỳ, chú trọng khắc họa những hình khối lớn mang lại sự uy nghi, vững chắc cho ngôi nhà của mình. Kiến trúc tân cổ điển với hình khối chắc khỏe, tương phản mà hài hòa được ưu tiên lựa chọn xây dựng các biệt thự liền kề Vinhomes Wonder City Đan Phượng.
           </p>
+          <img src="img/nha-lien-ke-2.jpg" className="image-container"
+            alt="Vinhomes Wonder City's floor plan"
+          />
 
           <h3>Tiềm năng tăng giá Liền kề Vinhomes Wonder City</h3>
           <div className="divide"></div>
@@ -49,16 +55,6 @@ const LienKe = () => {
           </p>
 
           <a href='/'>Quay về trang chủ</a>
-        </div>
-        <div className="row">
-          {/* 
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
-          */}
         </div>
       </div>
     </div>
