@@ -53,7 +53,12 @@ const LienKe = () => {
           <p>
             Biệt thự liện kề Vinhomes Wonder City Đan Phượng được đánh giá là có tiềm năng tăng giá mạnh trong tương lai, bởi chủ đầu tư uy tín, vị trí đắc địa, nhà thầu đảm bảo chất lượng, hệ thống tiện ích đẳng cấp, các căn biệt thự liền kề nằm ở vị trí đẹp, giá cả hợp lý, sử dụng để ở hoặc kinh doanh đều được…bởi vậy đây là mặt hàng được các nhà đầu tư ưa chuộng.
           </p>
-
+          <img src="img/ai-art.jpg" className="image-container"
+            alt="Vinhomes Wonder house"
+          />
+          <img src="img/ai-art-2.jpg" className="image-container"
+            alt="Vinhomes Wonder house"
+          />
           <a href='/'>Quay về trang chủ</a>
         </div>
       </div>

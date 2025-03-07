@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Navigation } from "../components/navigation";
 import { Header } from "../components/header";
 import { Intro } from "../components/intro";
 import { About } from "../components/about";
@@ -9,8 +8,6 @@ import JsonData from "../data/data.json";
 import "../App.css";
 import { TongThe } from "../components/TongThe";
 import { TienIch } from "../components/TienIch";
-import { Footer } from "../components/footer";
-import GoogleForm from "../components/GoogleForm";
 import UuDiem from "../components/UuDiem";
 
 const HomePage = () => {

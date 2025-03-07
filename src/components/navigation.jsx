@@ -93,10 +93,10 @@ export const Navigation = (props) => {
               </a>
             </li>
             <a className="btn btn-primary gold-gradient" style={{ cursor: 'auto'}}
-              href='lien-he'
+              href='tel:0367083529'
             >
-              <strong>Tel: </strong>
-              0367083529
+              <i className="fas fa-phone" style={{ marginRight: '8px' }}></i>
+              <span>0367083529</span>
             </a>
           </ul>
         </div>
